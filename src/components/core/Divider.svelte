@@ -1,0 +1,1 @@
+<div class="h-px w-full mt-4 mb-8 bg-gray-800" />
