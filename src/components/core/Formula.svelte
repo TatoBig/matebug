@@ -3,6 +3,6 @@
 
 	export let math: string;
 </script>
-<div class="p-4 my-4 flex justify-center items-center rounded bg-gray-100">
+<div class="my-4 flex justify-center items-center rounded bg-gray-100 hover:bg-gray-200 transition-colors">
 	<Katex {math} />
 </div>

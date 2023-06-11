@@ -1,10 +1,9 @@
 <script lang="ts">
 	import katex from 'katex';
 	export let math: string;
-	export let displayMode: boolean = false;
 
 	const options = {
-		displayMode: displayMode,
+		displayMode: true,
 		throwOnError: false
 	};
 
