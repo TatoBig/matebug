@@ -2,7 +2,7 @@
 	let pageTitle = 'MATEMATICA';
 </script>
 
-<header class="bg-primary text-white flex justify-center items-center fixed top-0 w-full h-20">
+<header class="bg-primary text-white lg:pl-4 pl-20 flex fixed top-0 w-full h-20">
 	<div class="flex justify-center items-center">
 		<a
 			href="/"
