@@ -1,9 +1,10 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
 
 	<Divider />
@@ -60,15 +61,15 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'(3y - 4)(9y² + 12y + 16) =  0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'27y³ - 64=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'27y³ - 64=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={' (5a - 4b)(25a² + 20ab + 16b²) = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'  125a³ - 64b³ =0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'  125a³ - 64b³ =0'} />
+	</HiddenSolution>
 </div>

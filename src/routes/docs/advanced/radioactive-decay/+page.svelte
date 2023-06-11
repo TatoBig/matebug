@@ -3,7 +3,7 @@
 	import Formula from '@components/core/Formula.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>DESINTEGRACIÓN RADIACTIVA</h1>
 	<Divider />
 

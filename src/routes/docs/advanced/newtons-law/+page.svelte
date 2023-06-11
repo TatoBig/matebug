@@ -4,7 +4,7 @@
 	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>LEY DE ENFRIAMIENTO DE NEWTON</h1>
 	<Divider />
 
