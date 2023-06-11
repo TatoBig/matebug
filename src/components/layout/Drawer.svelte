@@ -18,7 +18,7 @@
 <svelte:window bind:innerWidth />
 <button
 	on:click={() => (openDrawer = false)}
-	class="marker:text-white p-5 focus:outline-none h-16 w-16 focus:bg-black grid-flow-col bg-yellow-500 absolute top-2 left-2 z-10 lg:hidden"
+	class="marker:text-white p-5 focus:outline-none h-16 w-16 focus:bg-black grid-flow-col absolute top-2 left-2 z-10 lg:hidden"
 >
 	<MenuIcon />
 </button>
@@ -28,7 +28,7 @@
 	} bg-white xl:w-80 lg:w-64 w-80 overflow-y-scroll lg:mt-20 space-y-6 py-2 left-0 pb-32 transition duration-200 ease-in-out absolute h-screen z-[9999]`}
 >
 	<div class="text-black flex items-center pl-6 justify-between">
-		<a href="/" class="lg:mt-4"><span class="text-2xl font-extrabold lg:hidden">Imagen</span></a>
+		<a href="/" class="lg:mt-4"><span class="text-2xl font-extrabold lg:hidden"><img src="/images/logo-black.png" alt=""></span></a>
 		<button
 			class="h-16 w-16 flex justify-center items-center lg:hidden"
 			on:click={() => (openDrawer = true)}
