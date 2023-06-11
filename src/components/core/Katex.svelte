@@ -1,6 +1,7 @@
 <script lang="ts">
 	import katex from 'katex';
 	export let math: string;
+	export let small: boolean = false;
 
 	const options = {
 		displayMode: true,
@@ -19,6 +20,6 @@
 	/>
 </svelte:head>
 
-<div class="2xl:text-2xl text-xl">
+<div class={`${small ? 'text-base' : '2xl:text-2xl text-xl -z-10'}`}>
 	{@html katexString}
 </div>

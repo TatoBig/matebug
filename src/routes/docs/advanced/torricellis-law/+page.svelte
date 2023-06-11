@@ -5,15 +5,14 @@
 	import Image from '@components/core/Image.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>ELIMINACIÓN DE UN MEDICAMENTO</h1>
 	<div>
-        <li><a href="#s1">Definición</a></li>
-        <li><a href="#s2">La ecuación</a></li>
+		<li><a href="#s1">Definición</a></li>
+		<li><a href="#s2">La ecuación</a></li>
 		<li><a href="#s3">Ejemplo</a></li>
 		<li><a href="#s4">Solución</a></li>
-		
-    </div>
+	</div>
 	<Divider />
 
 	<h2 id="s1">1. Definición</h2>

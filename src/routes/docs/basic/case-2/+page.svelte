@@ -1,9 +1,10 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
 	<div>
 		<li><a href="#s1">DIFERENCIA DE CUADRADOS</a></li>
@@ -58,15 +59,15 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'9a² - 16b⁴=0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(3a + 4b²)(3a - 4b²)=0'} />
-	<!-- Aqui termina -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(3a + 4b²)(3a - 4b²)=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={'16a⁴ - 25b⁶=0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(4a² + 5b³)(4a² - 5b³)=0'} />
-	<!-- Aqui termina -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(4a² + 5b³)(4a² - 5b³)=0'} />
+	</HiddenSolution>
 </div>

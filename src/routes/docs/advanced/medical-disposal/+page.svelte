@@ -5,7 +5,7 @@
 	import Image from '@components/core/Image.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>ELIMINACIÓN DE UN MEDICAMENTO</h1>
 	<div>
         <li><a href="#s1">Definición</a></li>

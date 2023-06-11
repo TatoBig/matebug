@@ -4,12 +4,12 @@
 	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>RESOLUCIÓN DE ECUACIONES DIFERENCIALES</h1>
 	<div>
-        <li><a href="#s1">Ejercicio: verificar</a></li>
-        <li><a href="#s2">Comprobar</a></li>
-    </div>
+		<li><a href="#s1">Ejercicio: verificar</a></li>
+		<li><a href="#s2">Comprobar</a></li>
+	</div>
 	<Divider />
 
 	<h2 id="s1">1. Ejercicio: verificar</h2>
