@@ -6,11 +6,11 @@
 
 <div class="class-placeholder">
 	<h1>INTERÉS COMPUESTO</h1>
-	<div>
-        <li><a href="#s1">Definición</a></li>
-        <li><a href="#s2">Ejemplo 1</a></li>
+	<div class="jumper">
+		<li><a href="#s1">Definición</a></li>
+		<li><a href="#s2">Ejemplo 1</a></li>
 		<li><a href="#s3">Ejemplo 2</a></li>
-    </div>
+	</div>
 	<Divider />
 
 	<h2 id="s1">1. Definición</h2>
@@ -95,11 +95,11 @@
 			Sabiendo el resultado y la constante, solo habrá que despejar t para obtener el tiempo en el
 			cual se obtendrá el resultado.
 		</p>
-    <Formula math={'7000=5000e^{0.085t}'} />
-    <Formula math={'\\frac{7000}{5000}=e^0.085t'} />
-    <Formula math={'\\frac{\\text{ln}(1.4)}{0.085}=t'} />
-    <Formula math={'3.96=t'} />
+		<Formula math={'7000=5000e^{0.085t}'} />
+		<Formula math={'\\frac{7000}{5000}=e^0.085t'} />
+		<Formula math={'\\frac{\\text{ln}(1.4)}{0.085}=t'} />
+		<Formula math={'3.96=t'} />
 
-    <h4>Tardará 3.96 años para llegar a $7000.00</h4>
+		<h4>Tardará 3.96 años para llegar a $7000.00</h4>
 	</HiddenSolution>
 </div>

@@ -5,7 +5,7 @@
 
 <div class="class-placeholder">
 	<h1>CRECIMIENTO POBLACIONAL</h1>
-	<div>
+	<div class="jumper">
         <li><a href="#s1">Definición</a></li>
         <li><a href="#s2">Ejemplo</a></li>
 		<li><a href="#s3">Solución</a></li>

@@ -6,7 +6,7 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-	<div>
+	<div class="jumper">
         <li><a href="#s1">DIFERENCIA DE CUBOS</a></li>
         <li><a href="#s2">CARACTERISTICAS DIFERENCIA DE CUBOS</a></li>
     </div>

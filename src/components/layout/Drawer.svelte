@@ -40,7 +40,7 @@
 	</div>
 	<nav>
 		<h4 class="mt-2 pl-4 py-1">Matemáticas básicas</h4>
-		<a href="/" class="drawer-link"> Ecuaciones lineales </a>
+		<a href="/docs/basic/lineal-equation" class="drawer-link"> Ecuaciones lineales </a>
 		<h4 class="mt-2 pl-4 py-1">Casos de Factorización</h4>
 		<a href="/docs/basic/case-1" class="drawer-link"> Factor común </a>
 		<a href="/docs/basic/case-2" class="drawer-link"> Diferencia de cuadrados </a>
@@ -71,6 +71,6 @@
 		</a>
 
 		<h4 class="mt-2 pl-4 py-1">Ecuaciones exactas</h4>
-		<a href="/docs/advanced/exact-equactions" class="drawer-link"> Conceptos básicos </a>
+		<a href="/docs/advanced/exact-equations" class="drawer-link"> Conceptos básicos </a>
 	</nav>
 </div>

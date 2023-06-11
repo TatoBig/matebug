@@ -5,11 +5,11 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS BÁSICOS DE UNA ECUACIÓN DIFERENCIAL</h1>
-	<div>
-        <li><a href="#s1">Definición</a></li>
-        <li><a href="#s2">Características de una ecuación diferencial</a></li>
+	<div class="jumper">
+		<li><a href="#s1">Definición</a></li>
+		<li><a href="#s2">Características de una ecuación diferencial</a></li>
 		<li><a href="#s3">Tipos de soluciones para una ecuación diferencial</a></li>
-    </div>
+	</div>
 	<Divider />
 	<h2 id="s1">1. Definición</h2>
 	<p>
@@ -83,7 +83,5 @@
 	<Formula math={"y(1)=0\\hspace{0.5cm}(x+5)y'=y-1"} />
 
 	<h4>Solución específica</h4>
-	<Formula math={"y=-\\frac{1}{6}(x+5)+1"} />
-
-
+	<Formula math={'y=-\\frac{1}{6}(x+5)+1'} />
 </div>

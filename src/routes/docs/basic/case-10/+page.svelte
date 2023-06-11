@@ -6,10 +6,6 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-	<div>
-        <li><a href="#s1">DIFERENCIA DE DOS CUADRADOS</a></li>
-        <li><a href="#s2">CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</a></li>
-    </div>
 	<Divider />
 	<h2 id="s1">1. DIFERENCIA DE DOS CUADRADOS:</h2>
 	<p>
@@ -82,4 +78,9 @@
 		<Formula math={' (5a⁴ + 8b⁴)(5a⁴ - 8b⁴)=0'} />
 		<Formula math={'25a⁸ - 64b⁸=0'} />
 	</HiddenSolution>
+</div>
+
+<div class="jumper">
+	<li><a href="#s1">DIFERENCIA DE DOS CUADRADOS</a></li>
+	<li><a href="#s2">CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</a></li>
 </div>

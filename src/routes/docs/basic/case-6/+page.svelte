@@ -6,10 +6,10 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-	<div>
-        <li><a href="#s1">AGRUPACIÓN</a></li>
-        <li><a href="#s2">CARACTERISTICAS DE AGRUPACIÓN</a></li>
-    </div>
+	<div class="jumper">
+		<li><a href="#s1">AGRUPACIÓN</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE AGRUPACIÓN</a></li>
+	</div>
 	<Divider />
 	<h2 id="s1">1. AGRUPACIÓN:</h2>
 	<p>

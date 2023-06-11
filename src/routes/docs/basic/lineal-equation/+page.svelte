@@ -4,17 +4,8 @@
 	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1 id="sc">CONCEPTOS BÁSICOS. ECUACIÓN LINEAL</h1>
-	<div>
-		<li><a href="#s1">Definición</a></li>
-		<li><a href="#s2">Propiedades</a></li>
-		<li><a href="#s3">Ejemplo</a></li>
-		<li><a href="#s4">Propiedades</a></li>
-		<li><a href="#s5">Ejemplo</a></li>
-		<li><a href="#s6">Resolver una solucion con fracciones algebraicas</a></li>
-		<li><a href="#s7">Practica</a></li>
-	</div>
 	<Divider />
 	<h2 id="s1">1. Definición</h2>
 	<p>Una ecuación algebraica de una variable es un enunciado de la forma</p>
@@ -150,11 +141,19 @@
 	<Formula math={'x=\\frac{24}{21} = \\frac{8}{7}  '} />
 
 	<Divider />
-	<li class="text-right"><a href="#sc">regresar</a></li>
-	<Divider />
 	<h2 id="s7">7. Practica</h2>
 	<h3>1.</h3>
 	<Formula math={'\\frac{2x}{x^{2}-4}-\\frac{4}{2-x} =\\frac{12}{2x-3}'} />
 	<h3>2.</h3>
 	<Formula math={'\\frac{5x}{2}-5 =\\frac{2x-4}{6}'} />
+</div>
+
+<div class="jumper">
+  <li><a href="#s1">1. Definición</a></li>
+  <li><a href="#s2">2. Propiedades</a></li>
+  <li><a href="#s3">3. Ejemplo</a></li>
+  <li><a href="#s4">4. Propiedades</a></li>
+  <li><a href="#s5">5. Ejemplo</a></li>
+  <li><a href="#s6">6. Resolver una solucion con fracciones algebraicas</a></li>
+  <li><a href="#s7">7. Practica</a></li>
 </div>

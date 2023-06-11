@@ -6,7 +6,7 @@
 
 <div class="class-placeholder">
 	<h1>Ecuaciones separables</h1>
-	<div>
+	<div class="jumper">
         <li><a href="#s1">Definición</a></li>
         <li><a href="#s2">Resolución</a></li>
 		<li><a href="#s3">Ejercicio: Encontrar constante</a></li>

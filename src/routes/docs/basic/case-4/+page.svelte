@@ -6,7 +6,7 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-	<div>
+	<div class="jumper">
         <li><a href="#s1">TRINOMIO DE LA FORMA x² + bx + c</a></li>
         <li><a href="#s2">CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c </a></li>
     </div>

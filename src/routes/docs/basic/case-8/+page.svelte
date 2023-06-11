@@ -6,7 +6,7 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-	<div>
+	<div class="jumper">
         <li><a href="#s1">SUMA O DIFERENCIA DE POTENCIAS IGUALES</a></li>
         <li><a href="#s2">CARACTERISTICAS SUMA O DIFERENCIA DE POTENCIAS IGUALES</a></li>
     </div>

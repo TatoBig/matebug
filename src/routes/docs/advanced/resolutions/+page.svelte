@@ -6,7 +6,7 @@
 
 <div class="class-placeholder">
 	<h1>RESOLUCIÓN DE ECUACIONES DIFERENCIALES</h1>
-	<div>
+	<div class="jumper">
 		<li><a href="#s1">Ejercicio: verificar</a></li>
 		<li><a href="#s2">Comprobar</a></li>
 	</div>

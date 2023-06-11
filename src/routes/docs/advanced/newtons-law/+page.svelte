@@ -6,7 +6,7 @@
 
 <div class="class-placeholder">
 	<h1>LEY DE ENFRIAMIENTO DE NEWTON</h1>
-	<div>
+	<div class="jumper">
         <li><a href="#s1">Definición</a></li>
         <li><a href="#s2">DETERMINAR SI LA TEMPERATURA BAJA O SUBE RESPECTO AL AMBIENTE</a></li>
 		<li><a href="#s3">Ejemplo 1</a></li>
