@@ -1,11 +1,9 @@
 <script>
   import "../app.css";
 </script>
-
 <body>
 	<slot />
 </body>
-
 <style>
 	body {
 		padding: 0;
