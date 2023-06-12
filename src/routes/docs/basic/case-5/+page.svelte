@@ -1,13 +1,17 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+        <li><a href="#s1">TRINOMIO DE LA FORMA ax² + bx + c</a></li>
+        <li><a href="#s2">CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c</a></li>
+    </div>
 	<Divider />
-	<h2>1. TRINOMIO DE LA FORMA ax² + bx + c:</h2>
+	<h2 id="s1">1. TRINOMIO DE LA FORMA ax² + bx + c:</h2>
 	<p>
 		Similar al caso anterior, pero ahora se deben encontrar dos factores binomios donde los
 		coeficientes a, b y c se ajusten correctamente.
@@ -61,7 +65,7 @@
 	<Formula math={'(2x + 1)(x + 3)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c</h2>
 	<p>
 		Un trinomio de la forma ax² + bx + c, donde "a", "b" y "c" son coeficientes reales y "a" no es
 		igual a cero, es un trinomio de grado 2 con un término cuadrado, un término lineal y un término
@@ -71,15 +75,15 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'4x² + 12x + 9  = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(2x + 3)(2x + 3)=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(2x + 3)(2x + 3)=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={' 3x² - 5x - 2  = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(3x + 1)(x - 2)=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(3x + 1)(x - 2)=0'} />
+	</HiddenSolution>
 </div>

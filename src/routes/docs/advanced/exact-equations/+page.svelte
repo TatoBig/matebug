@@ -5,11 +5,17 @@
 	import Image from '@components/core/Image.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>ECUACIONES EXACTAS</h1>
+	<div class="jumper">
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Resolución</a></li>
+		<li><a href="#s3">Ejemplo</a></li>
+		<li><a href="#s4">Reducción a ecuaciones exactas</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>Son las ecuaciones que tienen la siguiente forma:</p>
 
 	<Formula math={'M(x,y)dx+N(x,y)dy=0'} />
@@ -20,7 +26,7 @@
 	<Formula math={'\\frac{dM}{dy}=\\frac{dN}{dx}'} />
 
 	<Divider />
-	<h2>2. Resolución</h2>
+	<h2 id="s2">2. Resolución</h2>
 
 	<p>Primero se debe comprobar que es una ecuación exacta, con la comprobación mencionaba.</p>
 	<p>Luego se debe integrar la parte M respecto a X y la parte de N respecto a Y</p>
@@ -34,7 +40,7 @@
 	</p>
 
 	<Divider />
-	<h2>3. Ejemplo</h2>
+	<h2 id="s3">3. Ejemplo</h2>
 	<p>Resolver la siguiente ecuación</p>
 	<Formula math={'(2xy²+3x²)dx+(2x²y+4y³)dy=0'} />
 	<p>Primero se debe comprobar si se trata de una ecuación exacta:</p>
@@ -60,7 +66,7 @@
 	<Formula math={'x²y²+x³+y⁴+C = 0'} />
 
 	<Divider />
-	<h2>4. Reducción a ecuaciones exactas</h2>
+	<h2 id="s4">4. Reducción a ecuaciones exactas</h2>
 	<p>
 		Estas son ecuaciones que tienen la forma de las ecuaciones exactas, pero al realizar la
 		verificación de si sus variables parciales son iguales, no se cumple.

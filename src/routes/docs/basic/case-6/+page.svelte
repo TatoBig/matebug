@@ -1,13 +1,17 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+		<li><a href="#s1">AGRUPACIÓN</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE AGRUPACIÓN</a></li>
+	</div>
 	<Divider />
-	<h2>1. AGRUPACIÓN:</h2>
+	<h2 id="s1">1. AGRUPACIÓN:</h2>
 	<p>
 		Consiste en agrupar términos de una expresión y encontrar un factor común dentro de cada grupo.
 	</p>
@@ -46,10 +50,10 @@
 	<Formula math={'xy + 3x - 2y - 6= 0'} />
 	<h4 class="font-normal">SOLUCION</h4>
 	<Formula math={'x(y + 3) - 2(y + 3)=0'} />
-    <Formula math={' (x - 2)(y + 3)=0'} />
+	<Formula math={' (x - 2)(y + 3)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE AGRUPACIÓN</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE AGRUPACIÓN</h2>
 	<p>
 		La agrupación en álgebra implica reorganizar términos en pares para extraer factores comunes y
 		simplificar la expresión. Es una técnica útil para simplificar expresiones y resolver
@@ -58,17 +62,17 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'2a³b - 4ab + 5a² - 10 =  0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'2ab(a² - 2) + 5(a² - 2)=0'} />
-    <Formula math={'(2ab + 5)(a² - 2)=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'2ab(a² - 2) + 5(a² - 2)=0'} />
+		<Formula math={'(2ab + 5)(a² - 2)=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={'3x² - 6xy + 2x - 4y = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={' 3x(x - 2y) + 2(x - 2y) =0'} />
-    <Formula math={' (3x + 2)(x - 2y) = 0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={' 3x(x - 2y) + 2(x - 2y) =0'} />
+		<Formula math={' (3x + 2)(x - 2y) = 0'} />
+	</HiddenSolution>
 </div>

@@ -4,16 +4,20 @@
 	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>RESOLUCIÓN DE ECUACIONES DIFERENCIALES</h1>
+	<div class="jumper">
+		<li><a href="#s1">Ejercicio: verificar</a></li>
+		<li><a href="#s2">Comprobar</a></li>
+	</div>
 	<Divider />
 
-	<h2>1. Ejercicio: verificar</h2>
+	<h2 id="s1">1. Ejercicio: verificar</h2>
 	<p>
 		En estos ejercicios solo se busca igualar una expresión en base a la solución, y verificar si
 		ésta es válida:
 	</p>
-	<h4>Comprobar</h4>
+	<h4 id="s2">2. Comprobar</h4>
 	<Formula math={"y'=3x^2(y^2+1)"} />
 
 	<h4>Corresponde a la siguiente solución</h4>

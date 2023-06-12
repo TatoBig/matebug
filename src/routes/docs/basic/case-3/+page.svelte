@@ -1,13 +1,17 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+		<li><a href="#s1">TRINOMIO CUADRADO PERFECTO</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE TRINOMIO PERFECTO</a></li>
+	</div>
 	<Divider />
-	<h2>1. TRINOMIO CUADRADO PERFECTO</h2>
+	<h2 id="s1">1. TRINOMIO CUADRADO PERFECTO</h2>
 	<p>
 		Es cuando tienes una expresión de la forma a² + 2ab + b² o a² - 2ab + b², que se factoriza como
 		(a + b)² o (a - b)².
@@ -51,7 +55,7 @@
 	<Formula math={'(x + 3)²=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE TRINOMIO PERFECTO</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE TRINOMIO PERFECTO</h2>
 	<p>
 		Un trinomio cuadrado perfecto es un binomio al cuadrado que tiene términos cuadrados, un término
 		cruzado y se puede factorizar como el producto de dos binomios idénticos o conjugados. Tienen
@@ -61,15 +65,15 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'4y² - 12yz + 9z² = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(2y - 3z)²=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(2y - 3z)²=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={'16a⁴ - 64a²b + 64b² = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(4a² - 8b)²=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(4a² - 8b)²=0'} />
+	</HiddenSolution>
 </div>

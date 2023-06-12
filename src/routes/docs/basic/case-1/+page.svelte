@@ -1,13 +1,17 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+		<li><a href="#s1">FACTOR COMÚN</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE FACTOR COMÚN</a></li>
+	</div>
 	<Divider />
-	<h2>1. FACTOR COMÚN</h2>
+	<h2 id="s1">1. FACTOR COMÚN</h2>
 	<p>
 		Este caso se aplica cuando hay un factor que se repite en todos los términos de una expresión:
 	</p>
@@ -36,7 +40,7 @@
 	<Formula math={'2x(1 + 2y)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE FACTOR COMÚN</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE FACTOR COMÚN</h2>
 	<p>
 		Una característica clave de un factor común es que es un término que se puede dividir entre dos
 		o más términos algebraicos
@@ -48,15 +52,15 @@
 	</p>
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'3a^²-6ab =0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={"3a(a-2b)=0"} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'3a(a-2b)=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={'5c+10d=0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'5(c+2d)=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'5(c+2d)=0'} />
+	</HiddenSolution>
 </div>

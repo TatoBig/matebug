@@ -4,18 +4,23 @@
 	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>Ecuaciones separables</h1>
+	<div class="jumper">
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Resolución</a></li>
+		<li><a href="#s3">Ejercicio: Encontrar constante</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		Una ecuación separable es aquella donde sus dos variables se pueden separar en ambos lados de la
 		ecuación con su respectivo diferencial
 	</p>
 
 	<Divider />
-	<h2>2. Resolución</h2>
+	<h2 id="s2">2. Resolución</h2>
 	<Formula math={'\\frac{dy}{dx}=2xsec(y)'} />
 	<h4>Separación de variables</h4>
 	<Formula math={'\\frac{dy}{sec(y)}=2xdx'} />
@@ -26,7 +31,7 @@
 	<Formula math={'sin(y)=\\frac{2x^2}{2}+C'} />
 	<Formula math={'y=sin^{-1}x²+C'} />
 
-	<h2>3. Ejercicio: Encontrar constante</h2>
+	<h2 id="s3">3. Ejercicio: Encontrar constante</h2>
 	<p>
 		Este tipo de ejercicios nos da valores iniciales para encontrar una solución específica para la
 		ecuación Se obtiene el valor de la constante

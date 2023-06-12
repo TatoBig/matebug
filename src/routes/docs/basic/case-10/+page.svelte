@@ -1,13 +1,13 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
 	<Divider />
-	<h2>1. DIFERENCIA DE DOS CUADRADOS:</h2>
+	<h2 id="s1">1. DIFERENCIA DE DOS CUADRADOS:</h2>
 	<p>
 		Sucede cuando tienes una expresión de la forma a⁴ - b⁴, que se factoriza utilizando la identidad
 		algebraica correspondiente.
@@ -54,7 +54,7 @@
 	<Formula math={'x⁴ - 16=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</h2>
 	<p>
 		La diferencia de dos cuadrados es una expresión algebraica en la forma a^2 - b^2, donde se resta
 		el cuadrado de un término del cuadrado de otro término. Se puede factorizar utilizando la
@@ -65,17 +65,22 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'(2y + 3z)(2y - 3z)(4y² - 9z²) =  0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={' (4y² + 9z²)(4y² - 9z²)=0'} />
-	<Formula math={' 16y⁴ - 81z⁴=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={' (4y² + 9z²)(4y² - 9z²)=0'} />
+		<Formula math={' 16y⁴ - 81z⁴=0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula math={'(√5a⁴ + 2√2b⁴)(√5a⁴ - 2√2b⁴)= 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={' (5a⁴ + 8b⁴)(5a⁴ - 8b⁴)=0'} />
-	<Formula math={'25a⁸ - 64b⁸=0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={' (5a⁴ + 8b⁴)(5a⁴ - 8b⁴)=0'} />
+		<Formula math={'25a⁸ - 64b⁸=0'} />
+	</HiddenSolution>
+</div>
+
+<div class="jumper">
+	<li><a href="#s1">DIFERENCIA DE DOS CUADRADOS</a></li>
+	<li><a href="#s2">CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</a></li>
 </div>

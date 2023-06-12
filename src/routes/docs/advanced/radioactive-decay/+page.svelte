@@ -3,11 +3,16 @@
 	import Formula from '@components/core/Formula.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>DESINTEGRACIÓN RADIACTIVA</h1>
+	<div class="jumper">
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Ejemplo</a></li>
+		<li><a href="#s3">Solución</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		Este postulado relaciona la tasa a la cual un elemento se desintegra, con la más total del
 		elemento.
@@ -22,7 +27,7 @@
 	<Formula math={'m(t)=Ce^{-kt}'} />
 
 	<Divider />
-	<h2>2. Ejemplo</h2>
+	<h2 id="s2">2. Ejemplo</h2>
 
 	<p>
 		La vida media del estroncio 90 es de 28 años. ¿Cuánto tiempo tardará una muestra de 50mg en
@@ -30,7 +35,7 @@
 	</p>
 
 	<Divider />
-	<h2>3. Solución</h2>
+	<h2 id="s3">3. Solución</h2>
 	<p>
 		El procedimiento es muy similar al del crecimiento poblacional, ya que es lo mismo solo que es
 		un decrecimiento.

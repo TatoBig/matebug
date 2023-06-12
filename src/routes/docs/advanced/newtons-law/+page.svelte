@@ -4,11 +4,19 @@
 	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>LEY DE ENFRIAMIENTO DE NEWTON</h1>
+	<div class="jumper">
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">DETERMINAR SI LA TEMPERATURA BAJA O SUBE RESPECTO AL AMBIENTE</a></li>
+		<li><a href="#s3">Ejemplo 1</a></li>
+		<li><a href="#s4">Solución</a></li>
+		<li><a href="#s5">Ejemplo 2</a></li>
+		<li><a href="#s6">Solución</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		Ley de enfriamiento de newton se utiliza para determinar la temperatura de un objeto luego de
 		cierto tiempo, dependiendo de la temperatura ambiente, por lo que si lo que puede hacer que
@@ -27,7 +35,7 @@
 	<Formula math={'T = e^{kt}C+Ta'} />
 
 	<Divider />
-	<h2>2. DETERMINAR SI LA TEMPERATURA BAJA O SUBE RESPECTO AL AMBIENTE</h2>
+	<h2 id="s2">2. DETERMINAR SI LA TEMPERATURA BAJA O SUBE RESPECTO AL AMBIENTE</h2>
 	<p>
 		El planteamiento del problema puede variar dependiendo de si la temperatura incrementara o
 		descenderá, solucionando esto poniendo el signo menos al que disminuye.
@@ -36,7 +44,7 @@
 	<Formula math={'\\frac{dT}{dt}αTa-T\\hspace{0.5cm}Ta>T'} />
 	<Divider />
 
-	<h2>3. Ejemplo 1</h2>
+	<h2 id="s3">3. Ejemplo 1</h2>
 
 	<p>
 		La temperatura normal del cuerpo es de 98.6°F. Inmediatamente después del a muerte el cuerpo
@@ -52,7 +60,7 @@
 	<li>T(t) = 72°F t = ?</li>
 
 	<Divider />
-	<h2>4. Solución</h2>
+	<h2 id="s4">4. Solución</h2>
 	<p>
 		Primero siempre debemos obtener el modelo a utilizar en base a la ecuación diferencial con
 		variable separable. En este caso la temperatura disminuye
@@ -79,7 +87,7 @@
 	<Formula math={'t = 6'} />
 
 	<Divider />
-	<h2>5. Ejemplo 2</h2>
+	<h2 id="s5">5. Ejemplo 2</h2>
 	<p>
 		Un termómetro que indica 70°F se coloca en un horno precalentado a una temperatura constante. A
 		través de una ventana de vidrio en la puerta del horno, un observador registra que el termómetro
@@ -93,7 +101,7 @@
 	<Formula math={'-\\frac{dT}{dt}αT-Ta'} />
 
 	<Divider />
-	<h2>6. Solución</h2>
+	<h2 id="s6">6. Solución</h2>
 
 	<HiddenSolution>
 		<p>

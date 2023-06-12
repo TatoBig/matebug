@@ -3,11 +3,16 @@
 	import Formula from '@components/core/Formula.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CRECIMIENTO POBLACIONAL</h1>
+	<div class="jumper">
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Ejemplo</a></li>
+		<li><a href="#s3">Solución</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		Este modelo se utiliza para determinar el crecimiento de población constante a través del tiempo
 		utilizando ecuaciones diferenciales de variables separables.
@@ -22,7 +27,7 @@
 	<Formula math={'P(t)=Ce^{kt}'} />
 
 	<Divider />
-	<h2>2. Ejemplo</h2>
+	<h2 id="s2">2. Ejemplo</h2>
 
 	<p>
 		La población de Estados Unidos en 1980 era de alrededor de 231 millones y ha crecido
@@ -36,7 +41,7 @@
 	<li>(La referencia es que si 1980 es el año 0, 2020 será el año 40)</li>
 
 	<Divider />
-	<h2>3. Solución</h2>
+	<h2 id="s3">3. Solución</h2>
 	<p>Primero se obtiene el modelo</p>
 	<Formula math={'\\frac{dP}{dt}αP'} />
 	<Formula math={'\\frac{dP}{dt}kP'} />
