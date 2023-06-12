@@ -7,9 +7,14 @@
 
 <div class="class-placeholder">
 	<h1>ELIMINACIÓN DE UN MEDICAMENTO</h1>
+	<div class="jumper">
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Ejemplo</a></li>
+		<li><a href="#s3">Solución</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		Este modelo aplica para queremos saber el tiempo en el que se elimina por completo una sustancia
 		aplicada en el cuerpo, generalmente un medicamento. Aplica el mismo concepto del de la
@@ -26,7 +31,7 @@
 	<Formula math={'M(t)=Ce^{-kt}'} />
 
 	<Divider />
-	<h2>2. Ejemplo</h2>
+	<h2 id="s2">2. Ejemplo</h2>
 
 	<p>
 		A una persona le recetan que se tome unas capsulas que contienen 800 mg de un medicamento. De
@@ -40,7 +45,7 @@
 	<li>M(?) = 250mg</li>
 
 	<Divider />
-	<h2>3. Solución</h2>
+	<h2 id="s3">3. Solución</h2>
 	<p>
 		Primero siempre debemos obtener el modelo a utilizar en base a la ecuación diferencial con
 		variable separable

@@ -8,6 +8,9 @@
 	.drawer-link {
 		@apply transition duration-200 hover:text-primary pl-6 py-1 w-full flex;
 	}
+	.jumper {
+		@apply top-0 fixed mt-40 w-1/4 lg:w-1/5 right-0 2xl:mr-[10%] lg:block hidden xl:mr-[6%] lg:mr-[2%]
+	}
 }
 
 *::-webkit-scrollbar {
@@ -96,3 +99,16 @@ li {
 ::before {
 	border-color: #000;
 }
+
+.jumper > li:hover {
+	transition: all 0.2s ease-in-out;
+	color: #F58A07;
+}
+
+.jumper > li {
+	color: #555;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+

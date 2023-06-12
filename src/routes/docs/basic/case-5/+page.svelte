@@ -6,9 +6,12 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+        <li><a href="#s1">TRINOMIO DE LA FORMA ax² + bx + c</a></li>
+        <li><a href="#s2">CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c</a></li>
+    </div>
 	<Divider />
-	<h2>1. TRINOMIO DE LA FORMA ax² + bx + c:</h2>
+	<h2 id="s1">1. TRINOMIO DE LA FORMA ax² + bx + c:</h2>
 	<p>
 		Similar al caso anterior, pero ahora se deben encontrar dos factores binomios donde los
 		coeficientes a, b y c se ajusten correctamente.
@@ -62,7 +65,7 @@
 	<Formula math={'(2x + 1)(x + 3)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c</h2>
 	<p>
 		Un trinomio de la forma ax² + bx + c, donde "a", "b" y "c" son coeficientes reales y "a" no es
 		igual a cero, es un trinomio de grado 2 con un término cuadrado, un término lineal y un término

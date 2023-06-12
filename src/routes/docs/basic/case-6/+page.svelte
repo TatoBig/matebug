@@ -6,9 +6,12 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+		<li><a href="#s1">AGRUPACIÓN</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE AGRUPACIÓN</a></li>
+	</div>
 	<Divider />
-	<h2>1. AGRUPACIÓN:</h2>
+	<h2 id="s1">1. AGRUPACIÓN:</h2>
 	<p>
 		Consiste en agrupar términos de una expresión y encontrar un factor común dentro de cada grupo.
 	</p>
@@ -50,7 +53,7 @@
 	<Formula math={' (x - 2)(y + 3)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE AGRUPACIÓN</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE AGRUPACIÓN</h2>
 	<p>
 		La agrupación en álgebra implica reorganizar términos en pares para extraer factores comunes y
 		simplificar la expresión. Es una técnica útil para simplificar expresiones y resolver

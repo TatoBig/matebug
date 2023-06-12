@@ -6,10 +6,16 @@
 </script>
 
 <div class="class-placeholder">
-	<h1>Ley de torricelli</h1>
+	<h1>ELIMINACIÓN DE UN MEDICAMENTO</h1>
+	<div class="jumper">
+		<li><a href="#s1">Definición</a></li>
+		<li><a href="#s2">La ecuación</a></li>
+		<li><a href="#s3">Ejemplo</a></li>
+		<li><a href="#s4">Solución</a></li>
+	</div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		La ley de Torricelli define el tiempo en el cual se vaciará un volumen de agua de un recipiente,
 		dependiendo del tamaño del orificio por el cuál el agua va saliendo.
@@ -27,7 +33,7 @@
 	<Formula math={'\\frac{A(y)dy}{dt}=-a\\sqrt{2gy}'} />
 
 	<Divider />
-	<h2>2. La ecuación</h2>
+	<h2 id="s2">2. La ecuación</h2>
 
 	<p>
 		Para resolver problemas de la ley de Torricelli de vaciado de tanques, es necesario entender la
@@ -46,7 +52,7 @@
 	<Formula math={'\\frac{A(y)dy}{dt}=-a\\sqrt{2gy}'} />
 
 	<Divider />
-	<h2>3. Ejemplo</h2>
+	<h2 id="s3">3. Ejemplo</h2>
 	<p>
 		En el tiempo t = 0 se retira el tapón del fondo (en el vértice) de un tanque cónico de 16 ft de
 		altura, lleno de agua. Después de 1 h el agua del tanque tiene altura de 9 ft. ¿Cuándo quedará
@@ -57,7 +63,7 @@
 	<li>t = ? altura 0ft</li>
 
 	<Divider />
-	<h2>4. Solución</h2>
+	<h2 id="s4">4. Solución</h2>
 	<p>
 		Primero siempre debemos obtener el modelo a utilizar en base a la ecuación diferencial con
 		variable separable en ecuaciones de física

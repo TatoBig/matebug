@@ -6,9 +6,12 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+		<li><a href="#s1">TRINOMIO CUADRADO PERFECTO</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE TRINOMIO PERFECTO</a></li>
+	</div>
 	<Divider />
-	<h2>1. TRINOMIO CUADRADO PERFECTO</h2>
+	<h2 id="s1">1. TRINOMIO CUADRADO PERFECTO</h2>
 	<p>
 		Es cuando tienes una expresión de la forma a² + 2ab + b² o a² - 2ab + b², que se factoriza como
 		(a + b)² o (a - b)².
@@ -52,7 +55,7 @@
 	<Formula math={'(x + 3)²=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE TRINOMIO PERFECTO</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE TRINOMIO PERFECTO</h2>
 	<p>
 		Un trinomio cuadrado perfecto es un binomio al cuadrado que tiene términos cuadrados, un término
 		cruzado y se puede factorizar como el producto de dos binomios idénticos o conjugados. Tienen

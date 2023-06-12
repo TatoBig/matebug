@@ -16,6 +16,7 @@
 			<div class="2xl:w-1/3 xl:w-2/5 md:w-1/2 w-4/5">
 				<slot />
 			</div>
+			<div class="w-px bg-primary h-screen ml-4 lg:block hidden"/>
 		</main>
 	</div>
 	<div>

@@ -6,9 +6,8 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
 	<Divider />
-	<h2>1. DIFERENCIA DE DOS CUADRADOS:</h2>
+	<h2 id="s1">1. DIFERENCIA DE DOS CUADRADOS:</h2>
 	<p>
 		Sucede cuando tienes una expresión de la forma a⁴ - b⁴, que se factoriza utilizando la identidad
 		algebraica correspondiente.
@@ -55,7 +54,7 @@
 	<Formula math={'x⁴ - 16=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</h2>
 	<p>
 		La diferencia de dos cuadrados es una expresión algebraica en la forma a^2 - b^2, donde se resta
 		el cuadrado de un término del cuadrado de otro término. Se puede factorizar utilizando la
@@ -79,4 +78,9 @@
 		<Formula math={' (5a⁴ + 8b⁴)(5a⁴ - 8b⁴)=0'} />
 		<Formula math={'25a⁸ - 64b⁸=0'} />
 	</HiddenSolution>
+</div>
+
+<div class="jumper">
+	<li><a href="#s1">DIFERENCIA DE DOS CUADRADOS</a></li>
+	<li><a href="#s2">CARACTERISTICAS DE DIFERENCIA DE DOS CUADRADOS</a></li>
 </div>

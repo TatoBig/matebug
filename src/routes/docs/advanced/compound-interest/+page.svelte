@@ -6,9 +6,14 @@
 
 <div class="class-placeholder">
 	<h1>INTERÉS COMPUESTO</h1>
+	<div class="jumper">
+		<li><a href="#s1">Definición</a></li>
+		<li><a href="#s2">Ejemplo 1</a></li>
+		<li><a href="#s3">Ejemplo 2</a></li>
+	</div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		El interés compuesto es determinado a través de un modelado ya que se va aplicando continuamente
 		a un interés inicial. Aplica el mismo concepto del crecimiento poblacional.
@@ -22,7 +27,7 @@
 	<Formula math={'A=e^{rt}C'} />
 
 	<Divider />
-	<h2>2. Ejemplo 1</h2>
+	<h2 id="s2">2. Ejemplo 1</h2>
 
 	<p>
 		Una suma de $12000 se invierte a una tasa de 10% anual capitalizable continuamente. Encuentre la
@@ -53,7 +58,7 @@
 	<Formula math={'A=16198.30'} />
 
 	<Divider />
-	<h2>4. Ejemplo 2</h2>
+	<h2 id="s3">4. Ejemplo 2</h2>
 	<p>
 		Una suma de $5000 se invierte a una tasa de 8.5% anual capitalizable continuamente. Encuentre la
 		cantidad de dinero acumulada después de un año y medio y el tiempo que se necesita para que
@@ -90,11 +95,11 @@
 			Sabiendo el resultado y la constante, solo habrá que despejar t para obtener el tiempo en el
 			cual se obtendrá el resultado.
 		</p>
-    <Formula math={'7000=5000e^{0.085t}'} />
-    <Formula math={'\\frac{7000}{5000}=e^0.085t'} />
-    <Formula math={'\\frac{\\text{ln}(1.4)}{0.085}=t'} />
-    <Formula math={'3.96=t'} />
+		<Formula math={'7000=5000e^{0.085t}'} />
+		<Formula math={'\\frac{7000}{5000}=e^0.085t'} />
+		<Formula math={'\\frac{\\text{ln}(1.4)}{0.085}=t'} />
+		<Formula math={'3.96=t'} />
 
-    <h4>Tardará 3.96 años para llegar a $7000.00</h4>
+		<h4>Tardará 3.96 años para llegar a $7000.00</h4>
 	</HiddenSolution>
 </div>

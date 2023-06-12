@@ -6,9 +6,12 @@
 
 <div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div class="jumper">
+        <li><a href="#s1">SUMA O DIFERENCIA DE POTENCIAS IGUALES</a></li>
+        <li><a href="#s2">CARACTERISTICAS SUMA O DIFERENCIA DE POTENCIAS IGUALES</a></li>
+    </div>
 	<Divider />
-	<h2>1. SUMA O DIFERENCIA DE POTENCIAS IGUALES:</h2>
+	<h2 id="s1">1. SUMA O DIFERENCIA DE POTENCIAS IGUALES:</h2>
 	<p>
 		Sucede cuando tienes una expresión de la forma aⁿ + bⁿ o aⁿ - bⁿ, y se factoriza en función de
 		una identidad algebraica específica.
@@ -53,7 +56,7 @@
 	<Formula math={'x⁴ + 16=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS SUMA O DIFERENCIA DE POTENCIAS IGUALES</h2>
+	<h2 id="s2">2. CARACTERISTICAS SUMA O DIFERENCIA DE POTENCIAS IGUALES</h2>
 	<p>
 		Las sumas y diferencias de potencias iguales son expresiones algebraicas donde los exponentes de
 		los términos son iguales. Se pueden factorizar utilizando fórmulas específicas, y su
