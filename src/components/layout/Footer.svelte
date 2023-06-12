@@ -1,5 +1,5 @@
 <script>
-	let footerText = '© 2023 - Todos los derechos reservados';
+	let footerText = '© 2023 - Creditos: Santiago Nava, David Guerra, Mariano Guitierrez';
 </script>
 <footer class="bg-primary text-white p-2 text-center">
 	<div>
