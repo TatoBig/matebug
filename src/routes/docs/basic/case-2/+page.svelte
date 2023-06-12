@@ -5,9 +5,12 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div>
+		<li><a href="#s1">DIFERENCIA DE CUADRADOS</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE DIFERENCIA DE CUADRADOS</a></li>
+	</div>
 	<Divider />
-	<h2>1. DIFERENCIA DE CUADRADOS</h2>
+	<h2 id="s1">1. DIFERENCIA DE CUADRADOS</h2>
 	<p>
 		Sucede cuando tienes una expresión de la forma a² - b², que puede factorizarse como (a + b)(a -
 		b):
@@ -45,7 +48,7 @@
 	<Formula math={'(x + 2)(x - 2)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE DIFERENCIA DE CUADRADOS</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE DIFERENCIA DE CUADRADOS</h2>
 	<p>
 		Las diferencias de cuadrados son expresiones algebraicas que se presentan en la forma a^2 - b^2
 		y pueden factorizarse como el producto de dos binomios conjugados. Tienen aplicaciones en la

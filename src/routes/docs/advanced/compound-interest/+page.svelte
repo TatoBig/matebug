@@ -6,9 +6,14 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>INTERÉS COMPUESTO</h1>
+	<div>
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Ejemplo 1</a></li>
+		<li><a href="#s3">Ejemplo 2</a></li>
+    </div>
 	<Divider />
 
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		El interés compuesto es determinado a través de un modelado ya que se va aplicando continuamente
 		a un interés inicial. Aplica el mismo concepto del crecimiento poblacional.
@@ -22,7 +27,7 @@
 	<Formula math={'A=e^{rt}C'} />
 
 	<Divider />
-	<h2>2. Ejemplo 1</h2>
+	<h2 id="s2">2. Ejemplo 1</h2>
 
 	<p>
 		Una suma de $12000 se invierte a una tasa de 10% anual capitalizable continuamente. Encuentre la
@@ -53,7 +58,7 @@
 	<Formula math={'A=16198.30'} />
 
 	<Divider />
-	<h2>4. Ejemplo 2</h2>
+	<h2 id="s3">4. Ejemplo 2</h2>
 	<p>
 		Una suma de $5000 se invierte a una tasa de 8.5% anual capitalizable continuamente. Encuentre la
 		cantidad de dinero acumulada después de un año y medio y el tiempo que se necesita para que

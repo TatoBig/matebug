@@ -5,9 +5,12 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div>
+		<li><a href="#s1">FACTOR COMÚN</a></li>
+		<li><a href="#s2">CARACTERISTICAS DE FACTOR COMÚN</a></li>
+	</div>
 	<Divider />
-	<h2>1. FACTOR COMÚN</h2>
+	<h2 id="s1">1. FACTOR COMÚN</h2>
 	<p>
 		Este caso se aplica cuando hay un factor que se repite en todos los términos de una expresión:
 	</p>
@@ -36,7 +39,7 @@
 	<Formula math={'2x(1 + 2y)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE FACTOR COMÚN</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE FACTOR COMÚN</h2>
 	<p>
 		Una característica clave de un factor común es que es un término que se puede dividir entre dos
 		o más términos algebraicos

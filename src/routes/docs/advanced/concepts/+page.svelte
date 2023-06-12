@@ -5,9 +5,13 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>CONCEPTOS BÁSICOS DE UNA ECUACIÓN DIFERENCIAL</h1>
-
+	<div>
+        <li><a href="#s1">Definición</a></li>
+        <li><a href="#s2">Características de una ecuación diferencial</a></li>
+		<li><a href="#s3">Tipos de soluciones para una ecuación diferencial</a></li>
+    </div>
 	<Divider />
-	<h2>1. Definición</h2>
+	<h2 id="s1">1. Definición</h2>
 	<p>
 		Es una ecuación matemática, pero que relaciona funciones con sus derivadas en la misma
 		expresión, como por ejemplo las siguientes:
@@ -17,7 +21,7 @@
 	<Formula math={'(x+y+4)dx+(-x-3y+2)dy=0'} />
 
 	<Divider />
-	<h2>2. Características de una ecuación diferencial</h2>
+	<h2 id="s2">2. Características de una ecuación diferencial</h2>
 
 	<h3>Orden</h3>
 	<p>El orden lo define el orden de la derivada más alta encontrada en la expresión.</p>
@@ -56,7 +60,7 @@
 	<Formula math={"y''+\\frac{yy'}{x^4}+\\frac{e^xy^2}{(y')^2}"} />
 
 	<Divider />
-	<h2>3. Tipos de soluciones para una ecuación diferencial</h2>
+	<h2 id="s3">3. Tipos de soluciones para una ecuación diferencial</h2>
 
 	<h3>General</h3>
 	<p>

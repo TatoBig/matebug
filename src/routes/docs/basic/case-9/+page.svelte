@@ -5,9 +5,12 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div>
+        <li><a href="#s1">Factor Común</a></li>
+        <li><a href="#s2">CARACTERISTICAS DE CUADRADO DE UN BINOMIO</a></li>
+    </div>
 	<Divider />
-	<h2>1. CUADRADO DE BINOMIO:</h2>
+	<h2 id="s1">1. CUADRADO DE BINOMIO:</h2>
 	<p>
 		Se aplica cuando tienes una expresión de la forma (a + b)² o (a - b)², y se factoriza utilizando
 		la identidad algebraica correspondiente.
@@ -54,7 +57,7 @@
 	<Formula math={' (x + 2)²=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE CUADRADO DE UN BINOMIO</h2>
+	<h2 id="s2">2. CARACTERISTICAS DE CUADRADO DE UN BINOMIO</h2>
 	<p>
 		El cuadrado de un binomio es una expresión algebraica que resulta de multiplicar un binomio por
 		sí mismo. Tiene términos cuadrados, un término cruzado y se puede factorizar utilizando la

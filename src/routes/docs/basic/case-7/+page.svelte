@@ -5,9 +5,12 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div>
+        <li><a href="#s1">DIFERENCIA DE CUBOS</a></li>
+        <li><a href="#s2">CARACTERISTICAS DIFERENCIA DE CUBOS</a></li>
+    </div>
 	<Divider />
-	<h2>1. DIFERENCIA DE CUBOS:</h2>
+	<h2 id="s1">1. DIFERENCIA DE CUBOS:</h2>
 	<p>
 		Se aplica cuando tienes una expresión de la forma a³ - b³, que se factoriza como (a - b)(a² + ab
 		+ b²).
@@ -50,7 +53,7 @@
 	<Formula math={'8x³ - 27=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DIFERENCIA DE CUBOS</h2>
+	<h2 id="s2">2. CARACTERISTICAS DIFERENCIA DE CUBOS</h2>
 	<p>
 		Una diferencia de cubos es una expresión algebraica en la forma a^3 - b^3, donde ambos términos
 		son cubos perfectos. Se puede factorizar utilizando la fórmula de diferencia de cubos, y su

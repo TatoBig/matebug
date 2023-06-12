@@ -5,9 +5,12 @@
 
 <div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
-
+	<div>
+        <li><a href="#s1">TRINOMIO DE LA FORMA x² + bx + c</a></li>
+        <li><a href="#s2">CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c </a></li>
+    </div>
 	<Divider />
-	<h2>1. TRINOMIO DE LA FORMA x² + bx + c:</h2>
+	<h2 id="s1">1. TRINOMIO DE LA FORMA x² + bx + c:</h2>
 	<p>
 		En este caso, se busca encontrar dos factores binomios que, al multiplicarse, den el trinomio.
 	</p>
@@ -47,7 +50,7 @@
 	<Formula math={'(x + 2)(x + 3)=0'} />
 
 	<Divider />
-	<h2>2. CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c </h2>
+	<h2 id="s2">2. CARACTERISTICAS DE TRINOMIO DE LA FORMA x² + bx + c </h2>
 	<p>
 		Un trinomio de la forma x² + bx + c es de grado 2 y consta de un término cuadrado, un término lineal y un término constante. Se puede factorizar de diferentes maneras y se utiliza en la resolución de ecuaciones cuadráticas y en problemas matemáticos relacionados con áreas y volúmenes.
 	</p>
