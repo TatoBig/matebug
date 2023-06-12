@@ -1,5 +1,5 @@
 # MATEBUG
-![LogoBlank]([https://user-images.githubusercontent.com/49622550/141670682-44d4e30b-8143-4b85-8f2f-026892e6d597.png](https://i.imgur.com/LqNwQNk.png))
+![LogoBlank](https://i.imgur.com/LqNwQNk.png)
 
 HACKFEST 2023 URL XELA.<br> 
 I warmly welcome you to the repository showcasing the development process of our website. Furthermore, the information to be shared pertains to the realm of fundamental mathematics learning and selected topics, which would be invaluable for initiating discussions on both basic and advanced concepts.
