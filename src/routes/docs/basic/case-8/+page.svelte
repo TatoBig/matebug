@@ -1,9 +1,10 @@
 <script>
 	import Divider from '@components/core/Divider.svelte';
 	import Formula from '@components/core/Formula.svelte';
+	import HiddenSolution from '@components/core/HiddenSolution.svelte';
 </script>
 
-<div class="h-screen 2xl:mx-[600px] xl:mx-96 md:mx-40 p-16">
+<div class="class-placeholder">
 	<h1>CONCEPTOS DE FACTORIZACIÓN</h1>
 
 	<Divider />
@@ -62,17 +63,17 @@
 
 	<h4 class="font-normal">Ejercicio 1</h4>
 	<Formula math={'(a - b)(a² + ab + b²)(a³ + b³)=0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(a³ - b³)(a³ + b³) =0'} />
-    <Formula math={'a⁶ - b⁶ =0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(a³ - b³)(a³ + b³) =0'} />
+		<Formula math={'a⁶ - b⁶ =0'} />
+	</HiddenSolution>
 
 	<h4 class="font-normal">Ejercicio 2</h4>
 	<Formula small math={' (2x - y)(2x + y)(4x² + 2xy + y²)(16x⁴ + 4x²y² + y⁴) = 0'} />
-	<!-- Esta es la solucion -->
-	<h4>Solución</h4>
-	<Formula math={'(4x² - y²)(16x⁴ + 4x²y² + y⁴) =0'} />
-    <Formula math={' 64x⁶ - y⁶ =0'} />
-	<!-- Aqui termine -->
+	<HiddenSolution>
+		<h4>Solución</h4>
+		<Formula math={'(4x² - y²)(16x⁴ + 4x²y² + y⁴) =0'} />
+		<Formula math={' 64x⁶ - y⁶ =0'} />
+	</HiddenSolution>
 </div>
